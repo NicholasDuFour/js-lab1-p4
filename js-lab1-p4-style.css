@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("addressbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.contactform {
+  display: flex;
+  border-radius: 5px;
+  background-color: rgba(179,178,176, 0.6);
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px;
+}
+
+input {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size: 12px;
+}
+
+#button {
+  width: 100%;
+  length: 80%;
+  font-size: 12px;
+  border-radius: 100px;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  padding: 2px,55px;
+  outline: none;
+}
+
+#button:active {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+#cbox {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+
+.ccard {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 25px;
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  border-radius: 100px;
+  background-color: rgba(255,255,255,0.8);
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  bottom: -12px;
+}
